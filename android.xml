@@ -1,3 +1,17 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
-  <block type="movement_reverse" id="271" x="-116" y="-113"></block>
+  <block type="movement_forward" id="370" x="-363" y="-211">
+    <next>
+      <block type="controls_whileUntil" id="350" inline="false">
+        <field name="MODE">WHILE</field>
+        <value name="NUMBER">
+          <block type="sensor_spectrometer" id="297">
+            <field name="LIGHT">RED</field>
+          </block>
+        </value>
+        <statement name="DO">
+          <block type="movement_stop" id="360"></block>
+        </statement>
+      </block>
+    </next>
+  </block>
 </xml>
