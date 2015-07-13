@@ -8,13 +8,10 @@
           </block>
         </value>
         <next>
-          <block type="movement_forward" id="328">
-            <next>
-              <block type="movement_stop" id="338"></block>
-            </next>
-          </block>
+          <block type="movement_forward" id="328"></block>
         </next>
       </block>
     </next>
   </block>
+  <block type="movement_stop" id="338" x="733" y="634"></block>
 </xml>
