@@ -4,7 +4,7 @@
       <block type="movement_rightmotor" id="218" inline="true">
         <value name="MOVRIGHT">
           <block type="math_number" id="234">
-            <field name="NUM">-3</field>
+            <field name="NUM">3</field>
           </block>
         </value>
       </block>
