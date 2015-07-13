@@ -7,15 +7,6 @@
             <field name="NUM">3</field>
           </block>
         </value>
-        <next>
-          <block type="movement_leftmotor" id="244" inline="true">
-            <value name="MOVLEFT">
-              <block type="math_number" id="251">
-                <field name="NUM">3</field>
-              </block>
-            </value>
-          </block>
-        </next>
       </block>
     </next>
   </block>
