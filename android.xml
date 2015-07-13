@@ -4,8 +4,18 @@
       <block type="controls_whileUntil" id="402" inline="false">
         <field name="MODE">WHILE</field>
         <value name="NUMBER">
-          <block type="sensor_spectrometer" id="418">
-            <field name="LIGHT">RED</field>
+          <block type="logic_compare" id="457" inline="true">
+            <field name="OP">GT</field>
+            <value name="A">
+              <block type="sensor_spectrometer" id="418">
+                <field name="LIGHT">RED</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="464">
+                <field name="NUM">50</field>
+              </block>
+            </value>
           </block>
         </value>
         <statement name="DO">
